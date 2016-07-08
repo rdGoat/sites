@@ -408,7 +408,7 @@ h3{
 
 }
 #top-bar{
-  height:300px;
+  height:201px;
   margin: 0;
   padding: 0;
   background-image: url(../images/tumblr.gif);
@@ -438,7 +438,9 @@ there.
     height: 280px;
 
   }
-
+  #top-bar{
+    height:401px;
+    background-size: 80% 80%;
 
 
 }
