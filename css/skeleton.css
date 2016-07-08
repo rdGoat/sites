@@ -393,7 +393,7 @@ hr {
 .prod-line{
   width: 100%;
   height: 100%;
-  
+
 }
 
 h3{
@@ -407,9 +407,19 @@ h3{
     letter-spacing: -5px;
 
 }
+#top-bar{
+  height:131px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/tumblr.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
 
- 
-  
+}
+
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
@@ -426,7 +436,7 @@ there.
   .product-box{
     width: calc(50% - 1px);
     height: 280px;
-    
+
   }
 
 
@@ -437,11 +447,11 @@ there.
 @media (min-width: 600px) {
 
   .product-box{
-   
+
     height: 300px;
   }
 
-   
+
 }
 
 /* Larger than tablet */
