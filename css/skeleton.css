@@ -408,13 +408,13 @@ h3{
 
 }
 #top-bar{
-  height:201px;
+  height:101px;
   margin: 0;
   padding: 0;
   background-image: url(../images/tumblr.gif);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed;
+
 
 
 }
