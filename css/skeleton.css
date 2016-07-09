@@ -413,7 +413,7 @@ h3{
   padding: 0;
   background-image: url(../images/tumblr.gif);
   background-repeat: no-repeat;
-
+  width:auto;
     background-attachment: fixed;
 
 
@@ -440,7 +440,7 @@ there.
 
   }
   #top-bar{
-    height:401px;
+    height:601px;
     background-size: 100% 100%;
 
 
