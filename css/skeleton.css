@@ -411,7 +411,7 @@ h3{
 #top-bar{
   height:100vh;
   margin: 0;
-  padding: 40% 0 0 0;
+  padding: 20% 0 0 0;
   background-image: url(../images/baccccc.jpg);
   background-repeat: no-repeat;
   width:100%;
@@ -428,6 +428,13 @@ text-align: center;
   padding: 0;
   height:120px;
   width: 220px;
+}
+
+.player{
+  width: 350px;height: 470px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 
 }
 
@@ -451,7 +458,7 @@ there.
   }
   #top-bar{
 
-padding: 15% 0 0 0;
+padding: 4% 0 0 0;
 
 }
 #logo{
