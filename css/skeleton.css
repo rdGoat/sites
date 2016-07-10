@@ -414,8 +414,8 @@ h3{
   background-image: url(../images/vector-layout.svg);
   background-repeat: no-repeat;
   width:auto;
-    background-attachment: fixed;
-    background-color: #d2ff00;
+  background-attachment: fixed;
+  background-color: #d2ff00;
 
 
 
@@ -443,7 +443,8 @@ there.
   #top-bar{
     height:601px;
     background-attachment: fixed;
-  
+    background-position: bottom;
+
 
 
 
