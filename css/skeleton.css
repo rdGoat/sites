@@ -98,7 +98,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #222;}
 
 
 /* Typography
@@ -371,6 +371,7 @@ hr {
   .threetype{
     width: 100%;
     max-width: 2000px;
+    display: none;
 
 
 
@@ -408,19 +409,27 @@ h3{
 
 }
 #top-bar{
-  height:101px;
+  height:100vh;
   margin: 0;
-  padding: 0;
+  padding: 40% 0 0 0;
   background-image: url(../images/baccccc.jpg);
   background-repeat: no-repeat;
-  width:auto;
-  background-attachment: fixed;
-  background-color: #d2ff00;
-
-
+  width:100%;
+   background-size: cover;
+background-position: center;
+text-align: center;
+}
+#logo{
+  background-image: url(../images/logo-rdGoat.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+   width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height:120px;
+  width: 220px;
 
 }
-
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -441,13 +450,14 @@ there.
 
   }
   #top-bar{
-    height:601px;
-    background-attachment: fixed;
 
+padding: 15% 0 0 0;
 
-
-
-
+}
+#logo{
+  height:200px;
+  width: 400px;
+}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
