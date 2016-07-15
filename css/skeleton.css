@@ -484,15 +484,8 @@ z-index: 1;
   z-index: -20;
 
 }
-#second-tier{
-  width: 100%;
-  height: 170px;
-  margin: 0;
 
-  background: rgba(255, 255, 255, 0.8);
-  margin-top: 40%;
-height: 50vh;
-}
+
 
 #logo{
   background-image: url(../images/logo-rdGoat.svg);
@@ -514,6 +507,22 @@ height: 50vh;
   padding: 0;
     z-index: 20;
 
+}
+#second-tier{
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/bulked.svg);
+  background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+background-attachment:fixed;
+text-align: center;
+
+width: 100%;
+height: 2200px;
+
+
+margin-top: 50%;
 }
 
 /* Media Queries
